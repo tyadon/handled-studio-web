@@ -4,8 +4,16 @@
 
 This is the marketing website for **Handled Studio**, a premium wedding concierge service specializing in bespoke wedding paper (invitations, save the dates, etc.) and custom wedding websites.
 
-**Live site**: Not yet deployed
+**Live site**: Deployed via Vercel (connected to GitHub repo)
+**Repository**: https://github.com/tyadon/handled-studio-web
 **Design aesthetic**: Editorial luxury - magazine-inspired, dramatic typography, refined elegance
+
+## Deployment
+
+- **Platform**: Vercel
+- **Method**: Auto-deploy from GitHub `main` branch
+- **Build**: `npm run build` (Next.js static export)
+- Pushes to `main` automatically trigger new deployments
 
 ## Tech Stack
 
