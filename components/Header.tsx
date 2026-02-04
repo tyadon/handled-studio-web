@@ -56,7 +56,7 @@ export function Header() {
           <nav className="flex items-center justify-between">
             {/* Logo */}
             <a href="/" className="relative z-10">
-              <h1 className="font-display text-xl md:text-2xl text-burgundy-900">
+              <h1 className="font-display text-xl md:text-2xl text-burgundy-900 tracking-[0.05em]">
                 <span className="italic font-medium">Handled</span>
                 <span className="font-light">.Studio</span>
               </h1>

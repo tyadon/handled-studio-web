@@ -13,7 +13,7 @@ export function Footer() {
           <div className="md:col-span-5">
             <SectionReveal>
               <a href="/" className="inline-block">
-                <h3 className="font-display text-3xl text-burgundy-900 italic">
+                <h3 className="font-display text-3xl text-burgundy-900 italic tracking-[0.05em]">
                   Handled
                   <span className="not-italic font-normal">.Studio</span>
                 </h3>
