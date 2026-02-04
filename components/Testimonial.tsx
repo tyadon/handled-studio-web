@@ -38,11 +38,11 @@ export function Testimonial() {
             </SectionReveal>
 
             <SectionReveal delay={0.15}>
-              <blockquote className="font-display text-display-sm md:text-display-md text-ink-900 font-light leading-snug">
+              <blockquote className="font-body text-xl md:text-2xl lg:text-3xl text-ink-900 font-light leading-relaxed max-w-3xl mx-auto">
                 Working with Handled Studio was the best decision we made for
                 our wedding. They took our scattered Pinterest boards and
                 half-formed ideas and created something{" "}
-                <span className="text-burgundy-900 italic font-medium">
+                <span className="font-accent text-burgundy-900 italic">
                   absolutely magical
                 </span>
                 . Our guests are still talking about the invitations.
