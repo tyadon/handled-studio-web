@@ -1,25 +1,27 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Outfit, Cormorant_SC } from "next/font/google";
+import localFont from "next/font/local";
+import { Blinker } from "next/font/google";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-cormorant",
+// Custom fonts - titles/headlines
+const perandory = localFont({
+  src: "../public/fonts/Perandory-Condensed.otf",
+  variable: "--font-perandory",
   display: "swap",
 });
 
-const cormorantSC = Cormorant_SC({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-cormorant-sc",
+// Custom fonts - subtitles/accents
+const amoresa = localFont({
+  src: "../public/fonts/amoresa-regular.otf",
+  variable: "--font-amoresa",
   display: "swap",
 });
 
-const outfit = Outfit({
+// Google font - body/paragraph text
+const blinker = Blinker({
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  variable: "--font-outfit",
+  weight: ["300", "400", "600"],
+  variable: "--font-blinker",
   display: "swap",
 });
 
@@ -51,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${cormorantSC.variable} ${outfit.variable}`}
+      className={`${perandory.variable} ${amoresa.variable} ${blinker.variable}`}
     >
       <body className="noise-overlay">{children}</body>
     </html>

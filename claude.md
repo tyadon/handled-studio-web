@@ -21,7 +21,7 @@ This is the marketing website for **Handled Studio**, a premium wedding concierg
 - **Styling**: Tailwind CSS with custom theme
 - **Animations**: Framer Motion
 - **Language**: TypeScript
-- **Fonts**: Cormorant Garamond (display), Outfit (body), Cormorant SC (accents)
+- **Fonts**: Perandory Condensed (display), Blinker (body), Amoresa (accents)
 
 ## Project Structure
 
@@ -56,9 +56,10 @@ tailwind.config.ts      # Custom theme with brand colors & typography
 
 | Name | Hex | Usage |
 |------|-----|-------|
-| Burgundy 900 | `#722F37` | Primary brand color, CTAs, accents |
-| Cream 100 | `#FAF7F2` | Primary background |
-| Cream 50 | `#FFFDF9` | Alternate section backgrounds |
+| Burgundy 900 | `#700c0c` | Primary brand color (dark red) |
+| Burgundy 800 | `#82001a` | Accent color (dark crimson) |
+| Cream 100 | `#e7e3dd` | Primary background (light orange) |
+| Cream 50 | `#FDFCFA` | Alternate section backgrounds |
 | Blush 200 | `#E8D5D0` | Soft accents |
 | Ink 900 | `#1A1A1A` | Primary text |
 | Ink 500 | `#6B6461` | Secondary text |
@@ -66,10 +67,11 @@ tailwind.config.ts      # Custom theme with brand colors & typography
 ## Key Design Patterns
 
 ### Typography
-- Display headlines use `font-display` (Cormorant Garamond)
-- Body text uses `font-body` (Outfit)
-- Labels/captions use `font-accent` (Cormorant SC) with letter-spacing
+- Display headlines use `font-display` (Perandory Condensed)
+- Body text uses `font-body` (Blinker)
+- Subtitles/captions use `font-accent` (Amoresa) with letter-spacing
 - Responsive font sizes via `text-display-xl`, `text-display-lg`, etc.
+- Custom fonts stored in `public/fonts/`
 
 ### Animations
 - All scroll animations use `SectionReveal` component

@@ -16,7 +16,7 @@ function HeroIllustration() {
           cx="250"
           cy="300"
           r="230"
-          stroke="#722F37"
+          stroke="#700c0c"
           strokeWidth="1"
           strokeDasharray="8 8"
           initial={{ opacity: 0, rotate: 0 }}
@@ -29,7 +29,7 @@ function HeroIllustration() {
           cx="250"
           cy="300"
           r="180"
-          stroke="#722F37"
+          stroke="#700c0c"
           strokeWidth="0.5"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.15 }}
@@ -58,8 +58,8 @@ function HeroIllustration() {
                C75 160, 90 155, 95 145 C100 135, 100 120, 110 110
                C120 100, 135 105, 145 100 C155 95, 165 80, 180 80
                C195 80, 205 95, 215 95 C225 95, 235 80, 250 80Z"
-            fill="#FAF7F2"
-            stroke="#722F37"
+            fill="#e7e3dd"
+            stroke="#700c0c"
             strokeWidth="2"
           />
         </motion.g>
@@ -76,8 +76,8 @@ function HeroIllustration() {
             width="190"
             height="130"
             rx="4"
-            fill="#FAF7F2"
-            stroke="#722F37"
+            fill="#e7e3dd"
+            stroke="#700c0c"
             strokeWidth="1.5"
           />
 
@@ -85,7 +85,7 @@ function HeroIllustration() {
           <path
             d="M155 200 L250 270 L345 200"
             fill="none"
-            stroke="#722F37"
+            stroke="#700c0c"
             strokeWidth="1.5"
             strokeLinejoin="round"
           />
@@ -94,7 +94,7 @@ function HeroIllustration() {
           <path
             d="M160 205 L250 265 L340 205"
             fill="none"
-            stroke="#722F37"
+            stroke="#700c0c"
             strokeWidth="0.5"
             opacity="0.3"
           />
@@ -113,15 +113,15 @@ function HeroIllustration() {
             height="100"
             rx="2"
             fill="#FFFFFF"
-            stroke="#722F37"
+            stroke="#700c0c"
             strokeWidth="1"
           />
 
           {/* Letter lines */}
-          <line x1="195" y1="165" x2="305" y2="165" stroke="#722F37" strokeWidth="0.5" opacity="0.4" />
-          <line x1="195" y1="180" x2="305" y2="180" stroke="#722F37" strokeWidth="0.5" opacity="0.4" />
-          <line x1="195" y1="195" x2="280" y2="195" stroke="#722F37" strokeWidth="0.5" opacity="0.4" />
-          <line x1="195" y1="210" x2="260" y2="210" stroke="#722F37" strokeWidth="0.5" opacity="0.4" />
+          <line x1="195" y1="165" x2="305" y2="165" stroke="#700c0c" strokeWidth="0.5" opacity="0.4" />
+          <line x1="195" y1="180" x2="305" y2="180" stroke="#700c0c" strokeWidth="0.5" opacity="0.4" />
+          <line x1="195" y1="195" x2="280" y2="195" stroke="#700c0c" strokeWidth="0.5" opacity="0.4" />
+          <line x1="195" y1="210" x2="260" y2="210" stroke="#700c0c" strokeWidth="0.5" opacity="0.4" />
         </motion.g>
 
         {/* Wax seal */}
@@ -130,16 +130,16 @@ function HeroIllustration() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 1.4, ease: [0.22, 1, 0.36, 1] }}
         >
-          <circle cx="250" cy="295" r="28" fill="#722F37" />
-          <circle cx="250" cy="295" r="22" fill="none" stroke="#FAF7F2" strokeWidth="1" opacity="0.4" />
+          <circle cx="250" cy="295" r="28" fill="#700c0c" />
+          <circle cx="250" cy="295" r="22" fill="none" stroke="#e7e3dd" strokeWidth="1" opacity="0.4" />
           {/* H monogram */}
           <text
             x="250"
             y="303"
             textAnchor="middle"
-            fill="#FAF7F2"
+            fill="#e7e3dd"
             fontSize="24"
-            fontFamily="var(--font-cormorant)"
+            fontFamily="var(--font-perandory)"
             fontStyle="italic"
           >
             H
@@ -150,7 +150,7 @@ function HeroIllustration() {
         <motion.path
           d="M220 320 Q200 340, 180 380 Q175 395, 190 390 Q210 385, 220 360"
           fill="none"
-          stroke="#722F37"
+          stroke="#700c0c"
           strokeWidth="1.5"
           initial={{ pathLength: 0, opacity: 0 }}
           animate={{ pathLength: 1, opacity: 0.6 }}
@@ -159,7 +159,7 @@ function HeroIllustration() {
         <motion.path
           d="M280 320 Q300 340, 320 380 Q325 395, 310 390 Q290 385, 280 360"
           fill="none"
-          stroke="#722F37"
+          stroke="#700c0c"
           strokeWidth="1.5"
           initial={{ pathLength: 0, opacity: 0 }}
           animate={{ pathLength: 1, opacity: 0.6 }}
@@ -177,7 +177,7 @@ function HeroIllustration() {
             animate={{ scale: [1, 1.2, 1], opacity: [0.6, 1, 0.6] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
-            <path d="M120 150 L123 157 L130 160 L123 163 L120 170 L117 163 L110 160 L117 157 Z" fill="#722F37" />
+            <path d="M120 150 L123 157 L130 160 L123 163 L120 170 L117 163 L110 160 L117 157 Z" fill="#700c0c" />
           </motion.g>
 
           {/* Top right sparkle */}
@@ -185,7 +185,7 @@ function HeroIllustration() {
             animate={{ scale: [1, 1.3, 1], opacity: [0.5, 1, 0.5] }}
             transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
           >
-            <path d="M380 130 L382 135 L387 137 L382 139 L380 144 L378 139 L373 137 L378 135 Z" fill="#722F37" />
+            <path d="M380 130 L382 135 L387 137 L382 139 L380 144 L378 139 L373 137 L378 135 Z" fill="#700c0c" />
           </motion.g>
 
           {/* Bottom sparkle */}
@@ -193,14 +193,14 @@ function HeroIllustration() {
             animate={{ scale: [1, 1.2, 1], opacity: [0.7, 1, 0.7] }}
             transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut", delay: 0.3 }}
           >
-            <path d="M350 420 L353 427 L360 430 L353 433 L350 440 L347 433 L340 430 L347 427 Z" fill="#722F37" />
+            <path d="M350 420 L353 427 L360 430 L353 433 L350 440 L347 433 L340 430 L347 427 Z" fill="#700c0c" />
           </motion.g>
 
           {/* Small dots */}
-          <circle cx="140" cy="380" r="2" fill="#722F37" opacity="0.3" />
-          <circle cx="370" cy="200" r="2" fill="#722F37" opacity="0.3" />
-          <circle cx="100" cy="280" r="1.5" fill="#722F37" opacity="0.2" />
-          <circle cx="400" cy="350" r="1.5" fill="#722F37" opacity="0.2" />
+          <circle cx="140" cy="380" r="2" fill="#700c0c" opacity="0.3" />
+          <circle cx="370" cy="200" r="2" fill="#700c0c" opacity="0.3" />
+          <circle cx="100" cy="280" r="1.5" fill="#700c0c" opacity="0.2" />
+          <circle cx="400" cy="350" r="1.5" fill="#700c0c" opacity="0.2" />
         </motion.g>
 
         {/* Curved text path */}
@@ -215,10 +215,10 @@ function HeroIllustration() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.15 }}
           transition={{ duration: 1, delay: 2 }}
-          fill="#722F37"
+          fill="#700c0c"
           fontSize="11"
           letterSpacing="6"
-          fontFamily="var(--font-cormorant-sc)"
+          fontFamily="var(--font-amoresa)"
         >
           <textPath href="#textCircle" startOffset="12%">
             YOUR PAPER + WEBSITE CONCIERGE

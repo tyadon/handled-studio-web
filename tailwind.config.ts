@@ -9,26 +9,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Brand colors from brand kit
         burgundy: {
-          50: '#fdf2f4',
-          100: '#fce7ea',
-          200: '#f8d0d7',
-          300: '#f3a9b6',
-          400: '#eb788f',
-          500: '#de4d6b',
-          600: '#c92d52',
-          700: '#a82244',
-          800: '#8c1f3d',
-          900: '#722F37',
-          950: '#450c1a',
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#f8a0a0',
+          400: '#f06868',
+          500: '#e53e3e',
+          600: '#c42020',
+          700: '#9b1c1c',
+          800: '#82001a',  // Dark crimson from brand
+          900: '#700c0c',  // Dark red from brand (primary)
+          950: '#450505',
         },
         cream: {
-          50: '#FFFDF9',
-          100: '#FAF7F2',
-          200: '#F5F0E8',
-          300: '#EDE5D8',
-          400: '#E0D4C3',
-          500: '#D4C5AE',
+          50: '#FDFCFA',
+          100: '#e7e3dd',  // Light orange from brand (primary background)
+          200: '#ddd8d0',
+          300: '#cfc8bc',
+          400: '#bdb4a5',
+          500: '#a89d8b',
         },
         blush: {
           100: '#F5EDEB',
@@ -46,19 +47,23 @@ const config: Config = {
         },
       },
       fontFamily: {
-        display: ['var(--font-cormorant)', 'Georgia', 'serif'],
-        body: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
-        accent: ['var(--font-cormorant-sc)', 'Georgia', 'serif'],
+        // Perandory Condensed - titles/main headlines
+        display: ['var(--font-perandory)', 'Georgia', 'serif'],
+        // Blinker - body/paragraph text
+        body: ['var(--font-blinker)', 'system-ui', 'sans-serif'],
+        // Amoresa - subtitles/accents
+        accent: ['var(--font-amoresa)', 'Georgia', 'serif'],
       },
       fontSize: {
-        'display-xl': ['clamp(3.5rem, 10vw, 9rem)', { lineHeight: '0.9', letterSpacing: '-0.02em' }],
-        'display-lg': ['clamp(2.5rem, 6vw, 5.5rem)', { lineHeight: '0.95', letterSpacing: '-0.02em' }],
-        'display-md': ['clamp(2rem, 4vw, 3.5rem)', { lineHeight: '1', letterSpacing: '-0.01em' }],
-        'display-sm': ['clamp(1.5rem, 3vw, 2.25rem)', { lineHeight: '1.1', letterSpacing: '0' }],
+        // Adjusted for condensed display font
+        'display-xl': ['clamp(4rem, 12vw, 10rem)', { lineHeight: '0.95', letterSpacing: '0.02em' }],
+        'display-lg': ['clamp(3rem, 7vw, 6rem)', { lineHeight: '1', letterSpacing: '0.02em' }],
+        'display-md': ['clamp(2.25rem, 5vw, 4rem)', { lineHeight: '1.05', letterSpacing: '0.01em' }],
+        'display-sm': ['clamp(1.75rem, 3.5vw, 2.5rem)', { lineHeight: '1.15', letterSpacing: '0.01em' }],
         'body-lg': ['1.25rem', { lineHeight: '1.7' }],
         'body-md': ['1.0625rem', { lineHeight: '1.7' }],
         'body-sm': ['0.9375rem', { lineHeight: '1.6' }],
-        'caption': ['0.8125rem', { lineHeight: '1.5', letterSpacing: '0.08em' }],
+        'caption': ['0.8125rem', { lineHeight: '1.5', letterSpacing: '0.05em' }],
       },
       spacing: {
         'section': 'clamp(6rem, 15vh, 12rem)',
