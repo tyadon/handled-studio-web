@@ -57,7 +57,7 @@ export function Introduction() {
                   <span className="font-display text-display-sm text-burgundy-900 font-semibold">
                     100%
                   </span>
-                  <span className="font-accent text-caption text-ink-500 tracking-wider">
+                  <span className="font-body text-sm font-medium text-ink-500 tracking-wider">
                     CUSTOM DESIGNS
                   </span>
                 </div>
@@ -66,7 +66,7 @@ export function Introduction() {
                   <span className="font-display text-display-sm text-burgundy-900 font-semibold">
                     Full
                   </span>
-                  <span className="font-accent text-caption text-ink-500 tracking-wider">
+                  <span className="font-body text-sm font-medium text-ink-500 tracking-wider">
                     CONCIERGE SERVICE
                   </span>
                 </div>

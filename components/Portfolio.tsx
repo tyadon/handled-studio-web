@@ -73,7 +73,7 @@ function PortfolioItem({
             className="absolute inset-0 bg-burgundy-900/80 flex items-center justify-center"
           >
             <div className="text-center">
-              <span className="font-accent text-caption text-cream-100/70 tracking-[0.15em] block mb-2">
+              <span className="font-body text-sm font-medium text-cream-100/70 tracking-[0.15em] block mb-2">
                 VIEW PROJECT
               </span>
               <motion.div
@@ -100,7 +100,7 @@ function PortfolioItem({
 
         {/* Info */}
         <div className="mt-5">
-          <span className="font-accent text-[0.6875rem] text-burgundy-900/50 tracking-[0.15em] block mb-1">
+          <span className="font-body text-xs font-medium text-burgundy-900/50 tracking-[0.15em] block mb-1">
             {item.category.toUpperCase()}
           </span>
           <h3 className="font-display text-xl text-ink-900 font-medium">
@@ -120,7 +120,7 @@ export function Portfolio() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 md:mb-24 gap-8">
           <div>
             <SectionReveal>
-              <span className="font-accent text-caption text-burgundy-900/60 tracking-[0.2em] block mb-6">
+              <span className="font-body text-sm font-medium text-burgundy-900/60 tracking-[0.2em] block mb-6">
                 OUR WORK
               </span>
             </SectionReveal>
@@ -136,7 +136,7 @@ export function Portfolio() {
           <SectionReveal delay={0.2}>
             <a
               href="#"
-              className="inline-flex items-center gap-3 font-accent text-caption text-burgundy-900 tracking-[0.15em] group"
+              className="inline-flex items-center gap-3 font-body text-sm font-medium text-burgundy-900 tracking-[0.15em] group"
             >
               <span>VIEW ALL PROJECTS</span>
               <span className="w-8 h-px bg-burgundy-900 transition-all duration-500 group-hover:w-12" />

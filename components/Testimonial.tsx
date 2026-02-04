@@ -32,7 +32,7 @@ export function Testimonial() {
           {/* Quote content */}
           <div className="relative z-10 py-12 md:py-20">
             <SectionReveal>
-              <span className="font-accent text-caption text-burgundy-900/60 tracking-[0.2em] block mb-10">
+              <span className="font-body text-sm font-medium text-burgundy-900/60 tracking-[0.2em] block mb-10">
                 KIND WORDS
               </span>
             </SectionReveal>
@@ -52,7 +52,7 @@ export function Testimonial() {
             <SectionReveal delay={0.3}>
               <div className="mt-12 flex flex-col items-center">
                 <div className="w-px h-8 bg-burgundy-900/20 mb-6" />
-                <span className="font-accent text-caption text-burgundy-900 tracking-[0.2em]">
+                <span className="font-body text-sm font-medium text-burgundy-900 tracking-[0.2em]">
                   SARAH & THOMAS
                 </span>
                 <span className="font-body text-body-sm text-ink-500 mt-1">

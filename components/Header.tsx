@@ -68,7 +68,7 @@ export function Header() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="font-accent text-caption text-ink-600 tracking-[0.1em] hover:text-burgundy-900 transition-colors duration-300 link-underline"
+                  className="font-body text-sm font-medium text-ink-600 tracking-[0.1em] hover:text-burgundy-900 transition-colors duration-300"
                 >
                   {link.label.toUpperCase()}
                 </a>
@@ -78,7 +78,7 @@ export function Header() {
             {/* CTA Button - Desktop */}
             <a
               href="#contact"
-              className="hidden md:inline-flex font-accent text-caption text-burgundy-900 tracking-[0.1em] border border-burgundy-900 px-5 py-2.5 hover:bg-burgundy-900 hover:text-cream-50 transition-all duration-300"
+              className="hidden md:inline-flex font-body text-sm font-medium text-burgundy-900 tracking-[0.1em] border border-burgundy-900 px-5 py-2.5 hover:bg-burgundy-900 hover:text-cream-50 transition-all duration-300"
             >
               GET STARTED
             </a>
@@ -178,7 +178,7 @@ export function Header() {
                     delay: 0.35,
                     ease: [0.22, 1, 0.36, 1],
                   }}
-                  className="mt-8 font-accent text-caption text-burgundy-900 tracking-[0.15em] border border-burgundy-900 px-8 py-4 hover:bg-burgundy-900 hover:text-cream-50 transition-all duration-300"
+                  className="mt-8 font-body text-sm font-medium text-burgundy-900 tracking-[0.15em] border border-burgundy-900 px-8 py-4 hover:bg-burgundy-900 hover:text-cream-50 transition-all duration-300"
                 >
                   GET STARTED
                 </motion.a>

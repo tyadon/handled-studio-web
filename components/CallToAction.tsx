@@ -28,7 +28,7 @@ export function CallToAction() {
       <div className="relative z-10 max-w-[90rem] mx-auto px-6 md:px-12 lg:px-20">
         <div className="max-w-4xl mx-auto text-center">
           <SectionReveal>
-            <span className="font-accent text-caption text-cream-100/50 tracking-[0.2em] block mb-8">
+            <span className="font-body text-sm font-medium text-cream-100/50 tracking-[0.2em] block mb-8">
               LET&apos;S BEGIN
             </span>
           </SectionReveal>

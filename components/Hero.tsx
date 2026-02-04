@@ -259,7 +259,7 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="mb-8 md:mb-12"
             >
-              <span className="font-accent text-caption text-burgundy-900/70 tracking-[0.2em]">
+              <span className="font-body text-sm font-medium text-burgundy-900/70 tracking-[0.2em]">
                 WEDDING CONCIERGE SERVICES
               </span>
             </motion.div>
@@ -327,7 +327,7 @@ export function Hero() {
             >
               <a
                 href="#contact"
-                className="inline-flex items-center gap-3 font-accent text-caption text-burgundy-900 tracking-[0.15em] group"
+                className="inline-flex items-center gap-3 font-body text-sm font-medium text-burgundy-900 tracking-[0.15em] group"
               >
                 <span>BEGIN YOUR JOURNEY</span>
                 <span className="w-8 h-px bg-burgundy-900 transition-all duration-500 group-hover:w-12" />
@@ -354,7 +354,7 @@ export function Hero() {
         transition={{ duration: 0.8, delay: 2 }}
         className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
       >
-        <span className="font-accent text-[0.6875rem] tracking-[0.2em] text-ink-500 rotate-90 origin-center translate-y-6">
+        <span className="font-body text-xs font-medium tracking-[0.2em] text-ink-500 rotate-90 origin-center translate-y-6">
           SCROLL
         </span>
         <motion.div

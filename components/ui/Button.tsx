@@ -22,7 +22,7 @@ export function Button({
   onClick,
 }: ButtonProps) {
   const baseStyles =
-    "relative inline-flex items-center justify-center font-accent uppercase tracking-[0.15em] overflow-hidden transition-all duration-500 ease-luxury";
+    "relative inline-flex items-center justify-center font-body font-medium uppercase tracking-[0.15em] overflow-hidden transition-all duration-500 ease-luxury";
 
   const variants = {
     primary:

@@ -27,7 +27,7 @@ export function Footer() {
           {/* Quick links */}
           <div className="md:col-span-3">
             <SectionReveal delay={0.1}>
-              <h4 className="font-accent text-caption text-burgundy-900/60 tracking-[0.2em] mb-6">
+              <h4 className="font-body text-sm font-medium text-burgundy-900/60 tracking-[0.2em] mb-6">
                 EXPLORE
               </h4>
               <nav className="flex flex-col gap-3">
@@ -62,7 +62,7 @@ export function Footer() {
           {/* Contact */}
           <div className="md:col-span-4">
             <SectionReveal delay={0.2}>
-              <h4 className="font-accent text-caption text-burgundy-900/60 tracking-[0.2em] mb-6">
+              <h4 className="font-body text-sm font-medium text-burgundy-900/60 tracking-[0.2em] mb-6">
                 GET IN TOUCH
               </h4>
               <div className="flex flex-col gap-3">

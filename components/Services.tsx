@@ -51,7 +51,7 @@ function ServiceCard({
 
           {/* Content */}
           <div className="relative z-10">
-            <span className="font-accent text-caption text-burgundy-900/60 tracking-[0.2em] block mb-4">
+            <span className="font-body text-sm font-medium text-burgundy-900/60 tracking-[0.2em] block mb-4">
               {subtitle}
             </span>
 
@@ -96,7 +96,7 @@ export function Services() {
         {/* Section header */}
         <div className="mb-16 md:mb-24">
           <SectionReveal>
-            <span className="font-accent text-caption text-burgundy-900/60 tracking-[0.2em] block mb-6">
+            <span className="font-body text-sm font-medium text-burgundy-900/60 tracking-[0.2em] block mb-6">
               WHAT WE DO
             </span>
           </SectionReveal>
